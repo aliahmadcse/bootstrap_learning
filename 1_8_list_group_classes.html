@@ -17,10 +17,86 @@
     <div class="container">
       <!-- simple nav in bootstrap -->
       <hr />
-      <h2>Navbar in bootstrap</h2>
+      <h2>List Group in bootstrap</h2>
       <hr />
       <br /><br />
-      
+      <ul class="list-group mb-5">
+        <li class="list-group-item">My list item 1</li>
+        <li class="list-group-item">My list item 2</li>
+        <li class="list-group-item">My list item 3</li>
+        <li class="list-group-item">My list item 4</li>
+      </ul>
+
+      <!-- list group with links -->
+      <hr />
+      <h2>List groups with links in bootstrap</h2>
+      <hr />
+      <br /><br />
+      <ul class="list-group">
+        <a href="#" class="list-group-item list-group-item-action"
+          >My list item 1</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >My list item 2</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >My list item 3</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >My list item 4</a
+        >
+      </ul>
+      <br /><br />
+
+      <!-- contexual classes -->
+      <hr />
+      <h2>Contextual classes in bootstrap</h2>
+      <hr />
+      <br /><br />
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-action">
+          Regular list item
+        </li>
+        <li class="list-group-item list-group-item-primary">
+          Primary list item
+        </li>
+        <li class="list-group-item list-group-item-secondary">
+          Secondary list item
+        </li>
+        <li class="list-group-item list-group-item-success">
+          Success list item
+        </li>
+        <li class="list-group-item list-group-item-info">Info list item</li>
+        <li class="list-group-item list-group-item-warning">
+          Warning list item
+        </li>
+      </ul>
+
+      <hr />
+      <h2>Javascript behavior in bootstrap</h2>
+      <hr />
+      <div class="row mb-5">
+        <div class="col-4">
+          <div class="list-group" role="tablist">
+            <a
+              href="#Home"
+              class="list-group-item list-group-item-action active"
+              data-toggle="list"
+              >Home</a
+            >
+            <a
+              href="#aboutme"
+              class="list-group-item list-group-item-action"
+              data-toggle="list"
+              >About Me</a
+            >
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-pane fade show" id="Home">Home page data....</div>
+          <div class="tab-pane fade" id="aboutme">about me page data....</div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

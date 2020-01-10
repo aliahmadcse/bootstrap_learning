@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/font_awesome.css" />
+
+    <script src="./js/bootstrapjquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.js"></script>
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <hr />
+      <h2>Forms in bootstrap</h2>
+      <hr />
+      <br /><br /><br />
+      <form action="">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            class="form-control form-control-sm"
+            placeholder="Enter Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email"> Enter email</label>
+          <input
+            type="email"
+            class="form-control form-control-sm"
+            id="email"
+            placeholder="Enter Email"
+          />
+          <small class="form-text text-muted"
+            >Your email will not be shared with anyone</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="password">Enter Password</label>
+          <input
+            type="password"
+            class="form-control form-control-sm"
+            id="password"
+            placeholder="Enter Password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select name="" id="gender" class="form-control">
+            <option value="">Male</option>
+            <option value="">Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            name=""
+            class="form-control"
+            id="message"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="file">File Input</label>
+          <input type="file" class="form-control" id="file" />
+          <small id="fileHelp" class="form-text text-muted"
+            >Max size 3 mb
+          </small>
+        </div>
+      </form>
+      <!-- inline form -->
+      <hr />
+      <h2>Inline form</h2>
+      <hr />
+      <form action="" class="form-inline">
+        <input type="text" placeholder="Enter Username" class="form-control" />
+        <input type="text" placeholder="Enter Password" class="form-control" />
+        <div class="form-check">
+          <label for="" class="form-check-label">
+            <input type="checkbox" class="form-check-input" />Remember me
+          </label>
+        </div>
+        <button class="btn btn-success">Submit</button>
+      </form>
+
+      <!-- form-row -->
+      <hr><h2>Form Row</h2><hr>
+      <form action="">
+          <div class="form-row">
+              <div class="col">
+                  <input class="form-control" type="text" placeholder="First Name">
+              </div>
+              <div class="col"> 
+                  <input class="form-control" type="text" placeholder="Last Name">
+              </div>
+          </div>
+
+          <br><br>
+          <!-- validation -->
+          <hr><h2>Validation</h2><hr>
+          <br><br>
+          <div>
+              
+          </div>
+      </form>
+    </div>
+  </body>
+</html>
